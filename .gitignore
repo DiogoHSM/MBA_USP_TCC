@@ -1,0 +1,16 @@
+# Dependências locais e metadados
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Dados derivados e artefatos de treinamento
+data/processed/
+models/*.joblib
+reports/*.json
+reports/*.csv
+
+# Checkpoints e logs pesados
+*.log
