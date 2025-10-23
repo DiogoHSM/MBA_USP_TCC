@@ -30,6 +30,8 @@ Este repositório organiza o fluxo de trabalho do TCC para classificação de ob
 
 Scripts reutilizáveis devem ser implementados em `src/`, permitindo automatizar etapas recorrentes (ex.: preparação de dados em lote ou avaliação de modelos). Modelos finais serializados (pickle, joblib, ONNX) ficam em `models/`.
 
+> ℹ️ Consulte o guia detalhado em [`docs/README.md`](docs/README.md) para um panorama dos notebooks, convenções de nomenclatura, métricas monitoradas e instruções passo a passo de execução.
+
 ## Relatórios e figuras
 Os gráficos gerados pelos notebooks devem ser exportados para `reports/figures/`, agrupados por experimento (por exemplo, `reports/figures/base/` e `reports/figures/pre_paralelismo/`). Isso facilita a incorporação em relatórios, artigos ou apresentações.
 
